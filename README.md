@@ -55,3 +55,37 @@ From the project root:
 mongosh < mongo-scripts/create_database.js
 mongosh < mongo-scripts/insert_sample_data.js
 mongosh < mongo-scripts/crud_examples.js
+
+```
+---
+
+## 📘 What You Will Learn
+
+### ✔ MongoDB Fundamentals
+- Databases, collections, documents  
+- BSON structure  
+- Schema flexibility  
+
+### ✔ CRUD Operations
+- insertOne, insertMany  
+- find, findOne  
+- updateOne, updateMany  
+- deleteOne, deleteMany  
+
+### ✔ Aggregation Pipelines
+- $match, $group, $project  
+- $sort, $limit, $lookup  
+- Real‑world examples  
+
+### ✔ Indexing & Performance
+- Single‑field indexes  
+- Compound indexes  
+- Text search  
+- Query optimization basics  
+
+### ✔ Data Modeling in NoSQL
+- Embedded vs referenced documents  
+- One‑to‑one, one‑to‑many, many‑to‑many  
+- Best practices for MongoDB schema design
+
+---
