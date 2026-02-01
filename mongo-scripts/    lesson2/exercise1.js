@@ -17,5 +17,4 @@ Add your IP address:
 - Password: `yourPassword123`
 
 ## 5. Copy the connection string
-Example:
-mongodb+srv://dbUser:yourPassword123@cluster0.xxxxx.mongodb.net/
+
