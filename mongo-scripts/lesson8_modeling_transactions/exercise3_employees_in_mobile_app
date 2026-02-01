@@ -1,0 +1,11 @@
+// Exercise 3: Employees working on Mobile App Development (Referenced Model)
+
+use company_db;
+
+// Step 1: Find project ID
+const project = db.Projects.findOne({ name: "Mobile App Development" });
+
+// Step 2: Find employees whose _id is in project.employees list
+db.Employees.find({
+    _id: { $in: project.employees.map(e => e.employee_id) }
+}).pretty();
